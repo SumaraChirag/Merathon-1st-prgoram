@@ -1,0 +1,859 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.header-con {
+    background-image: url(1st_Background.png);
+    height: 950px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 100px 100px;
+}
+
+.hc_logo {
+    display: flex;
+    position: relative;
+    top: 50px;
+    justify-content: center;
+}
+
+.hc-img {
+    width: 90px;
+    height: auto;
+
+}
+
+.hc-para {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 900;
+    color: rgb(7, 62, 144);
+    margin-left: 10px;
+}
+
+.main1 {
+    justify-content: center;
+    display: flex;
+    margin-top: -120px;
+}
+
+.top-text1 {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    padding: 30px 30px 30px 30px;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(7, 62, 144);
+    border-radius: 50px 0 50px 0;
+    background: rgb(117,248,210);
+    background: linear-gradient(180deg,rgb(41, 132, 207)10%,rgb(5, 109, 194),rgb(6, 104, 184)50%);
+}
+
+.medical {
+    color: white;
+}
+
+.main2 {
+    justify-content: center;
+    display: flex;
+    margin-top: -40px;
+}
+
+.top-text2 {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 53px;
+    font-weight: 400;
+    color: rgb(7, 62, 144);
+    border-radius: 0px 0 0px 0;
+    background: rgb(9, 224, 224);
+}
+
+.coma {
+    color: rgb(94, 94, 94);
+    opacity: 0.52;
+    margin-top: -70px;
+    font-size: 240px;
+    font-weight: 900;
+    font-family: serif;
+    margin-left: 70px;
+}
+
+.about-us {
+    color: rgb(7, 62, 144);
+    align-items: end;
+    display: flex;
+    font-size: 30px;
+    margin-top: -170px;
+    margin-left: 80px;
+}
+
+.about {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.us {
+    font-size: 75px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.lorem {
+    color: rgb(7, 62, 144);
+    margin-left: 80px;
+    width: 49%;
+    font-size: 13px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-left: 80px;
+    width: 55%;
+    height: 2px;
+    background-color: black;
+}
+
+.img-2 {
+    margin-left: 840px;
+    margin-top: -270px;
+    height: 244px;
+    border-radius: 29px 0px 29px 0px;
+}
+
+.bg-color {
+    height: 225px;
+    background-color: rgb(7, 62, 144);
+    width: 360px;
+    border-radius: 0px 0px 29px 0px;
+    margin-left: 895px;
+    margin-top: -220px;
+}
+
+.covid {
+    font-size: 42px;
+    color: rgb(7, 62, 144);
+    margin-left: 33.3%;
+}
+
+.for {
+    margin-left: 15%;
+}
+
+.our {
+    width: 440px;
+    background-color: rgb(7, 62, 144);
+    height: 75px;
+    margin-top: -9%;
+    margin-left: 65.1%;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.services {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-left: 120px;
+}
+
+.incons {
+    display: flex;
+    margin-left: 90px;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.small-logo {
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 1px;
+}
+
+.line {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(7, 62, 144);
+    border-radius: 0px 5px 0px 5px;    
+}
+
+.incons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-l,
+.first-2,
+.first-3 {
+    flex: 0;
+    text-align: center;
+    color: rgb(7, 62, 144);
+}
+
+
+.bottom-box {
+    margin-top: -187px;
+    margin-left: 70%;
+    height: 360px;
+    background-color: rgb(9, 224, 224);
+}
+
+.lorem-text {
+    color: white;
+    text-align: end;
+    margin-right: 20px;
+    font-size: 13px;
+    padding-left: 50px;
+}
+
+.lorem-1,
+.lorem-2,
+.lorem-3 {
+    padding-top: 40px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-us {
+    color: rgb(7, 62, 144);
+    margin-top: -140px;
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+i.fa-solid {
+    font-size: 30px;
+}
+
+i.fa-brands {
+    font-size: 30px;
+    color: rgb(7, 62, 144);
+    margin-left: 30px;
+}
+
+.website {
+    color: rgb(7, 62, 144);
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.website span {
+    margin-left: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.i-class {
+    width: 300px;
+    margin-left: 150px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.qr {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(7, 62, 144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.qr-logo {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+@media only screen and (max-width:1024px) {    
+    
+.header-con {
+    background-image: url(1st_Background.png);
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 100px 100px;
+}
+
+    
+    .hc_logo {
+        top: 35px;
+        justify-content: center;
+    }
+    
+    .hc-img {
+        width: 90px;
+        height: auto;
+    
+    }
+    
+    .hc-para {
+        font-size: 30px;
+        margin-top: 30px;
+        font-weight: 900;
+        color: rgb(7, 62, 144);
+        margin-left: 10px;
+    }
+    
+    .main1 {
+        justify-content: center;
+        display: flex;
+        margin-top: -120px;
+    }
+    
+    .top-text1 {
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+        padding: 30px 30px 30px 30px;
+        font-size: 80px;
+        font-weight: 900;
+        color: rgb(7, 62, 144);
+        border-radius: 50px 0 50px 0;
+        background: rgb(117,248,210);
+        background: linear-gradient(180deg,rgb(41, 132, 207)10%,rgb(5, 109, 194),rgb(6, 104, 184)50%);
+    }
+    
+    .medical {
+        color: white;
+    }
+    
+    .main2 {
+        justify-content: center;
+        display: flex;
+        margin-top: -40px;
+    }
+    
+    .top-text2 {
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+        padding: 10px 30px 10px 30px;
+        font-size: 40px;
+        font-weight: 400;
+        color: rgb(7, 62, 144);
+        border-radius: 0px 0 0px 0;
+        background: rgb(9, 224, 224);
+    }
+    
+    .coma {
+        color: rgb(94, 94, 94);
+        opacity: 0.52;
+        margin-top: -50px;
+        font-size: 180px;
+        font-weight: 900;
+        font-family: serif;
+        margin-left: 60px;
+    }
+    
+    .about-us {
+        color: rgb(7, 62, 144);
+        align-items: end;
+        display: flex;
+        font-size: 20px;
+        margin-top: -120px;
+        margin-left: 60px;
+    }
+    
+    .about {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .us {
+        font-size: 60px;
+        font-weight: 900;
+        margin-left: 10px;
+    }
+    
+    .lorem {
+        color: rgb(7, 62, 144);
+        margin-left: 60px;
+        width: 49%;
+        font-size: 13px;
+    }
+    
+    hr {
+        margin-top: 0px;
+        margin-left: 60px;
+        width: 50%;
+        height: 2px;
+        background-color: black;
+    }
+    
+    .img-2 {
+        margin-left: 690px;
+        margin-top: -270px;
+        height: 215px;
+        border-radius: 29px 0px 29px 0px;
+    }
+    
+    .bg-color {
+        height: 201px;
+        background-color: rgb(7, 62, 144);
+        width: 330px;
+        border-radius: 0px 0px 29px 0px;
+        margin-left: 690px;
+        margin-top: -197px;
+    }
+    
+    .covid {
+        font-size: 35px;
+        color: rgb(7, 62, 144);
+        margin-left: 27.3%;
+    }
+    
+    .for {
+        margin-left: 15%;
+    }
+    
+    .our {
+        width: 356px;
+        background-color: rgb(7, 62, 144);
+        height: 75px;
+        margin-top: -9%;
+        margin-left: 65.1%;
+        border-radius: 30px 0px 0px 0px;
+    }
+    
+    .services {
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 25px;
+        padding-left: 120px;
+    }
+    
+    .incons {
+        display: flex;
+        margin-left: 90px;
+        width: 650px;
+        justify-content: space-between;
+    }
+    
+    .small-logo {
+        height: 50px;
+        margin-top: 90px;
+        margin-left: 1px;
+    }
+    
+    .line {
+        width: 120px;
+        height: 5px;
+        background-color: rgb(7, 62, 144);
+        border-radius: 0px 5px 0px 5px;    
+    }
+    
+    .incons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 65px;
+    }
+    
+    .first-l,
+    .first-2,
+    .first-3 {
+        flex: 0;
+        text-align: center;
+        margin-right: 95px;
+
+        color: rgb(7, 62, 144);
+    }
+    
+    
+    .bottom-box {
+        margin-top: -187px;
+        margin-left: 70%;
+        height: 360px;
+        background-color: rgb(9, 224, 224);
+    }
+    
+    .lorem-text {
+        color: white;
+        text-align: end;
+        margin-right: 20px;
+        font-size: 13px;
+        padding-left: 50px;
+    }
+    
+    .lorem-1,
+    .lorem-2,
+    .lorem-3 {
+        padding-top: 40px;
+    }
+    .text{
+        font-size: 11px;
+    }
+    .heading {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .contact-us {
+        color: rgb(7, 62, 144);
+        margin-top: -140px;
+        margin-left: 80px;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    
+    i.fa-solid {
+        font-size: 30px;
+    }
+    
+    i.fa-brands {
+        font-size: 30px;
+        color: rgb(7, 62, 144);
+        margin-left: 30px;
+    }
+    
+    .website {
+        color: rgb(7, 62, 144);
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    .website span {
+        margin-left: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .i-class {
+        width: 300px;
+        margin-left: 70px;
+    }
+    
+    .logos {
+        display: flex;
+        align-items: center;
+        margin-top: -40px;
+    }
+    
+    .qr {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(7, 62, 144);
+        display: flex;
+        align-items: center;
+        margin-left: -70px;
+        justify-content: center;
+        border-radius: 20px 0px 20px 0px;
+    }
+    
+    .qr-logo {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+
+
+@media only screen and (max-width:1024px) {    
+    
+    .header-con {
+        background-image: url(1st_Background.png);
+        height: 790px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0 0 100px 100px;
+    }
+    
+        
+        .hc_logo {
+            top: 35px;
+            justify-content: center;
+        }
+        
+        .hc-img {
+            width: 90px;
+            height: auto;
+        
+        }
+        
+        .hc-para {
+            font-size: 30px;
+            margin-top: 30px;
+            font-weight: 900;
+            color: rgb(7, 62, 144);
+            margin-left: 10px;
+        }
+        
+        .main1 {
+            justify-content: center;
+            display: flex;
+            margin-top: -120px;
+        }
+        
+        .top-text1 {
+            width: fit-content;
+            height: fit-content;
+            margin: 20px;
+            padding: 30px 30px 30px 30px;
+            font-size: 80px;
+            font-weight: 900;
+            color: rgb(7, 62, 144);
+            border-radius: 50px 0 50px 0;
+            background: rgb(117,248,210);
+            background: linear-gradient(180deg,rgb(41, 132, 207)10%,rgb(5, 109, 194),rgb(6, 104, 184)50%);
+        }
+        
+        .medical {
+            color: white;
+        }
+        
+        .main2 {
+            justify-content: center;
+            display: flex;
+            margin-top: -40px;
+        }
+        
+        .top-text2 {
+            width: fit-content;
+            height: fit-content;
+            margin: 20px;
+            padding: 10px 30px 10px 30px;
+            font-size: 40px;
+            font-weight: 400;
+            color: rgb(7, 62, 144);
+            border-radius: 0px 0 0px 0;
+            background: rgb(9, 224, 224);
+        }
+        
+        .coma {
+            color: rgb(94, 94, 94);
+            opacity: 0.52;
+            margin-top: -50px;
+            font-size: 180px;
+            font-weight: 900;
+            font-family: serif;
+            margin-left: 60px;
+        }
+        
+        .about-us {
+            color: rgb(7, 62, 144);
+            align-items: end;
+            display: flex;
+            font-size: 20px;
+            margin-top: -120px;
+            margin-left: 60px;
+        }
+        
+        .about {
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .us {
+            font-size: 60px;
+            font-weight: 900;
+            margin-left: 10px;
+        }
+        
+        .lorem {
+            color: rgb(7, 62, 144);
+            margin-left: 60px;
+            width: 49%;
+            font-size: 13px;
+        }
+        
+        hr {
+            margin-top: 0px;
+            margin-left: 60px;
+            width: 50%;
+            height: 2px;
+            background-color: black;
+        }
+        
+        .img-2 {
+            margin-left: 690px;
+            margin-top: -270px;
+            height: 215px;
+            border-radius: 29px 0px 29px 0px;
+        }
+        
+        .bg-color {
+            height: 201px;
+            background-color: rgb(7, 62, 144);
+            width: 330px;
+            border-radius: 0px 0px 29px 0px;
+            margin-left: 690px;
+            margin-top: -197px;
+        }
+        
+        .covid {
+            font-size: 35px;
+            color: rgb(7, 62, 144);
+            margin-left: 27.3%;
+        }
+        
+        .for {
+            margin-left: 15%;
+        }
+        
+        .our {
+            width: 356px;
+            background-color: rgb(7, 62, 144);
+            height: 75px;
+            margin-top: -9%;
+            margin-left: 65.1%;
+            border-radius: 30px 0px 0px 0px;
+        }
+        
+        .services {
+            color: white;
+            font-size: 30px;
+            font-weight: 500;
+            padding-top: 25px;
+            padding-left: 120px;
+        }
+        
+        .incons {
+            display: flex;
+            margin-left: 90px;
+            width: 650px;
+            justify-content: space-between;
+        }
+        
+        .small-logo {
+            height: 50px;
+            margin-top: 90px;
+            margin-left: 1px;
+        }
+        
+        .line {
+            width: 120px;
+            height: 5px;
+            background-color: rgb(7, 62, 144);
+            border-radius: 0px 5px 0px 5px;    
+        }
+        
+        .incons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 65px;
+        }
+        
+        .first-l,
+        .first-2,
+        .first-3 {
+            flex: 0;
+            text-align: center;
+            margin-right: 95px;
+    
+            color: rgb(7, 62, 144);
+        }
+        
+        
+        .bottom-box {
+            margin-top: -187px;
+            margin-left: 70%;
+            height: 360px;
+            background-color: rgb(9, 224, 224);
+        }
+        
+        .lorem-text {
+            color: white;
+            text-align: end;
+            margin-right: 20px;
+            font-size: 13px;
+            padding-left: 50px;
+        }
+        
+        .lorem-1,
+        .lorem-2,
+        .lorem-3 {
+            padding-top: 40px;
+        }
+        .text{
+            font-size: 11px;
+        }
+        .heading {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .contact-us {
+            color: rgb(7, 62, 144);
+            margin-top: -140px;
+            margin-left: 80px;
+            font-weight: 500;
+            font-size: 22px;
+        }
+        
+        i.fa-solid {
+            font-size: 30px;
+        }
+        
+        i.fa-brands {
+            font-size: 30px;
+            color: rgb(7, 62, 144);
+            margin-left: 30px;
+        }
+        
+        .website {
+            color: rgb(7, 62, 144);
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+        
+        .website span {
+            margin-left: 10px;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        
+        .i-class {
+            width: 300px;
+            margin-left: 70px;
+        }
+        
+        .logos {
+            display: flex;
+            align-items: center;
+            margin-top: -40px;
+        }
+        
+        .qr {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(7, 62, 144);
+            display: flex;
+            align-items: center;
+            margin-left: -70px;
+            justify-content: center;
+            border-radius: 20px 0px 20px 0px;
+        }
+        
+        .qr-logo {
+            height: 70px;
+            width: 70px;
+        }
+    }
